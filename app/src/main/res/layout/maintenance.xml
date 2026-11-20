@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/editor_card" android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:background="@drawable/card" android:padding="16dp">
+
+    <TextView android:id="@+id/code_label" style="@style/FormLabel"
+        android:text="@string/code" android:labelFor="@id/code"/>
+    <EditText android:id="@+id/code" style="@style/FormInput"
+        android:inputType="textCapCharacters|textNoSuggestions" android:maxLength="30"/>
+    <TextView android:id="@+id/code_error" style="@style/FormError"/>
+
+    <LinearLayout android:id="@+id/catalog_fields" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="vertical" android:paddingTop="14dp">
+        <TextView style="@style/FormLabel" android:text="@string/name" android:labelFor="@id/name"/>
+        <EditText android:id="@+id/name" style="@style/FormInput"
+            android:inputType="textCapWords" android:maxLength="100"/>
+        <TextView android:id="@+id/name_error" style="@style/FormError"/>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/ficha_fields" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="vertical">
+        <TextView style="@style/FormSection" android:text="Referencias"/>
+        <LinearLayout android:id="@+id/references" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="vertical"/>
+        <TextView style="@style/FormSection" android:text="Fecha y monto"/>
+        <TextView style="@style/FormLabel" android:text="@string/date" android:labelFor="@id/date"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <EditText android:id="@+id/date" style="@style/FormInput" android:layout_width="0dp"
+                android:layout_weight="1" android:inputType="textNoSuggestions"/>
+            <ImageButton android:id="@+id/calendar" android:layout_width="52dp" android:layout_height="52dp"
+                android:layout_marginStart="8dp" android:scaleType="center" android:src="@drawable/ic_calendar"
+                android:contentDescription="Elegir fecha en el calendario"/>
+        </LinearLayout>
+        <TextView android:id="@+id/date_error" style="@style/FormError"/>
+        <TextView style="@style/FormLabel" android:text="@string/amount"
+            android:labelFor="@id/amount" android:layout_marginTop="12dp"/>
+        <EditText android:id="@+id/amount" style="@style/FormInput"
+            android:inputType="textNoSuggestions" android:hint="0,00"/>
+        <TextView android:id="@+id/amount_error" style="@style/FormError"/>
+    </LinearLayout>
+    <TextView android:id="@+id/feedback" style="@style/FormError"/>
+</LinearLayout>

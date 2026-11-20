@@ -1,0 +1,14 @@
+<resources>
+ <string name="app_name">Inscripción deportiva</string>
+ <string name="back">Volver</string><string name="search">Buscar por código o nombre</string>
+ <string name="add">Adicionar</string><string name="edit">Modificar</string><string name="delete">Eliminar</string>
+ <string name="inactivate">Inactivar</string><string name="reactivate">Reactivar</string><string name="find">Buscar</string>
+ <string name="cancel">Cancelar</string><string name="save">Guardar</string><string name="exit">Salir</string>
+ <string name="consult">Consultar</string><string name="select">Seleccionar</string>
+ <string name="code">Código</string><string name="name">Nombre</string><string name="number">Número de ficha</string>
+ <string name="date">Fecha (AAAA-MM-DD)</string><string name="amount">Monto de inscripción (S/)</string>
+ <string name="records">Registros</string><string name="editor">Detalle del registro</string>
+ <string name="choose_hint">Selecciona una fila para consultar o usa Adicionar.</string>
+ <string name="order">Orden inicial: código ascendente · Estados A / I / *</string>
+ <string name="ref_order">Solo registros activos · Orden alfabético por nombre</string>
+</resources>

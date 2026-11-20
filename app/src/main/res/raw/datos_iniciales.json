@@ -1,0 +1,27 @@
+{
+  "socios": [
+    {"code": "S001", "name": "Ana Torres", "state": "A"},
+    {"code": "S002", "name": "Luis Rojas", "state": "A"},
+    {"code": "S003", "name": "María Vega", "state": "A"},
+    {"code": "S004", "name": "Jorge Salas", "state": "I"},
+    {"code": "S005", "name": "Lucía Pérez", "state": "*"},
+    {"code": "S015", "name": "Carlos Medina Rojas", "state": "A"}
+  ],
+  "tipos_socio": [
+    {"code": "1", "name": "Junior", "state": "A"},
+    {"code": "2", "name": "Senior", "state": "A"},
+    {"code": "3", "name": "Master", "state": "A"},
+    {"code": "4", "name": "Vitalicio", "state": "A"},
+    {"code": "5", "name": "Visitante deportivo", "state": "A"}
+  ],
+  "deportes": [
+    {"code": "D001", "name": "Natación", "state": "A"},
+    {"code": "D002", "name": "Fútbol", "state": "A"},
+    {"code": "D003", "name": "Vóley", "state": "A"},
+    {"code": "D015", "name": "Atletismo libre", "state": "A"}
+  ],
+  "fichas": [
+    {"code": "F0001", "socio": "S001", "tipo": "2", "deporte": "D001", "date": "2026-11-16", "cents": 8000, "state": "A"},
+    {"code": "F0015", "socio": "S015", "tipo": "5", "deporte": "D015", "date": "2026-11-19", "cents": 8500, "state": "A"}
+  ]
+}

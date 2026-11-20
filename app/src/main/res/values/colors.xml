@@ -1,0 +1,17 @@
+<resources>
+    <color name="app_canvas">#F4F4F8</color>
+    <color name="app_surface">#FFFFFF</color>
+    <color name="app_outline">#DDDCE7</color>
+    <color name="app_text">#211C31</color>
+    <color name="app_muted">#574F65</color>
+    <color name="app_accent">#50338C</color>
+    <color name="app_accent_light">#EEE7FA</color>
+    <color name="app_hero">#302049</color>
+    <color name="app_on_hero">#E8DEF6</color>
+    <color name="app_positive">#145A47</color>
+    <color name="app_positive_bg">#E3F3EC</color>
+    <color name="app_warning">#714B0B</color>
+    <color name="app_warning_bg">#FFF0D1</color>
+    <color name="app_danger">#8F2638</color>
+    <color name="app_danger_bg">#FAE8EC</color>
+</resources>

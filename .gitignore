@@ -1,0 +1,40 @@
+# Gradle y Android Studio
+.gradle/
+.kotlin/
+.idea/
+build/
+out/
+captures/
+*.iml
+local.properties
+
+# Salidas y datos locales
+*.apk
+*.apks
+*.aab
+*.dex
+*.log
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.hprof
+.DS_Store
+Thumbs.db
+
+# Configuración privada y credenciales
+.env
+.env.*
+keystore.properties
+key.properties
+secrets.properties
+google-services.json
+service-account*.json
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key

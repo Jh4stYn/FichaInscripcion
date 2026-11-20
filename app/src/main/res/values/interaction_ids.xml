@@ -1,0 +1,13 @@
+<resources>
+    <item type="id" name="more"/>
+    <item type="id" name="add"/>
+    <item type="id" name="edit"/>
+    <item type="id" name="delete"/>
+    <item type="id" name="inactivate"/>
+    <item type="id" name="reactivate"/>
+    <item type="id" name="cancel"/>
+    <item type="id" name="save"/>
+    <item type="id" name="search"/>
+    <item type="id" name="filter"/>
+    <item type="id" name="records"/>
+</resources>
